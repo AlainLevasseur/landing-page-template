@@ -1,0 +1,1 @@
+The purpose of this project is to re-create a landing page from the specifications provided by The Odin Project while using the CSS and HTML skills covered so far (and a few new tricks).
