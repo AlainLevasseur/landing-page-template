@@ -155,6 +155,10 @@ button {
     font-weight: 700;
 }
 
+.cta-container button {
+    border-color: #F9FAF8;
+}
+
 .footer {
     align-items: center;
 }
