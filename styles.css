@@ -29,7 +29,7 @@ body {
     font-weight: 700;
 }
 
-.logo, .hero-main {
+.logo, .hero-main, .cta-main {
     color: #F9FAF8;
 }
 
@@ -42,7 +42,7 @@ a {
     text-decoration: none;
 }
 
-a, .hero-secondary, .image-placeholder, .footer {
+a, .hero-secondary, .image-placeholder, .cta-secondary, .footer {
     color: #E5E7EB;
     font-size: 18px;
     font-weight: 400;
@@ -137,6 +137,22 @@ button {
     font-weight: 700;
     text-align: right;
     padding-right: 48px;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    border-radius: 8px;
+    width: 856px;
+    padding: 48px 96px;
+    margin: 0 auto;
+}
+
+.cta-main {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
 }
 
 .footer {
