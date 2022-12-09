@@ -14,7 +14,7 @@ body {
     padding: 16px;
 }
 
-.header, .body {
+.header{
     max-width: 1048px;
 }
 
@@ -88,9 +88,7 @@ button {
     width: 600px;
 }
 
-.body-container {
-    display: flex;
-    justify-content: center;
+.section-container#two {
     text-align: center;
 }
 
@@ -116,6 +114,29 @@ button {
     width: 160px;
     height: 160px;
     text-align: center;
+}
+
+.section-container#three {
+    background-color: #E5E7EB;
+}
+
+.quote-container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    text-align: left;
+}
+
+.quotee {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right;
+    padding-right: 48px;
 }
 
 .footer {
