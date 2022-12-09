@@ -3,22 +3,25 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     margin: 0;
     min-height: 100vh;
 }
 
-.header, .footer {
-    flex: auto;
+.header-container, .footer {
+    display: flex;
+    justify-content: center;
     background-color: #1F2937;
-    padding: 10px;
+    padding: 16px;
+}
+
+.header, .body {
+    max-width: 1048px;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
 }
 
 .logo {
@@ -45,13 +48,16 @@ a, .hero-secondary, .image-placeholder, .footer {
     font-weight: 400;
 }
 
-.section-container {
+.section-container#one {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 48px 0;
 }
 
 .hero {
     flex: 0 1 600px;
+    gap: 8px;
 }
 
 .hero-main {
@@ -66,16 +72,20 @@ button {
     font-size: 18px;
     font-weight: 700;
     padding: 8px 24px;
+    margin: 8px 0;
 }
 
 .hero button {
     border-style: none;
 }
 
-
+#one .image-placeholder {
+    background-color: gray;
+    text-align: center;
+    width: 600px;
+}
 
 .footer {
-    display: flex;
-    justify-content: center;
+
     align-items: center;
 }
